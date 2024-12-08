@@ -37,3 +37,13 @@ I don't think its as clean as it could be, but it still works fine.
 
 
 
+12/08/2024
+1:42 PM
+
+Today I am going to finish the project. I'm thankful for the extension, because otherwise I would have has to drop working on other assignments and studying for finals to finish this.
+I am going to focus on the implementation of the BTree, as that is the most important aspect of the assignment that i'm missing right now.
+Since I have been making sure that the program is functional each time I leave it, I should be able to integrate this into the program without much issue.
+I think I will add this in a separate file, just as I did with the IndexFile.java.
+
+
+
