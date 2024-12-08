@@ -9,9 +9,31 @@ For this project, I am going to take the approach of working on the base feature
 I'm also going to take the approach of building on other features like I did for the last project. Instead of worrying about having all indexes running at once, im going to work on having one working at once. 
 I'm also going to try and keep up with the github as much as possible. I have never kept up with a github, but i'm going to make sure I at least have a commit at the end of each session.
 
+
+
 12/07/2024
 1:42 PM
 
 I am programming this project in Java. I already have made a menu for the different options, I am going to upload that, then work on making the index file. 
 I want to work on implementing functions into the program so that I don't have to work on patching everything together in the end. 
+
+
+
+12/07/2024
+11:55 PM
+
+-Created menu with all options
+-Created index file with all methods (needs implementation)
+-Created RandomAccessFile implementation into IndexFile.java
+
+I decided to have multiple files for this project so I could put different structures into their own classes and files. I think having this separation will make the code more readable and be more clean.
+A lot of the work I did today was to research the implementation of the RandomAccessFiles and BTree. Tomorrow, I should be fine to implement the whole project.
+
+One problem I had today was forgetting about static and nonstatic contexts. There were a couple instances where I wanted to have a Scanner or another method work on checking if IndexFile was empty, but kept getting the error. 
+I eventually just put the check into an if statement in each of the menu's options that needed it.
+I don't think its as clean as it could be, but it still works fine.
+
+-EDIT: forgot to commit last night, so i'm doing it the next day. 12/08/2024, 1:36 PM
+
+
 
