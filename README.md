@@ -47,3 +47,14 @@ I think I will add this in a separate file, just as I did with the IndexFile.jav
 
 
 
+12/08/2024
+8:57 PM
+
+Finished with the project.
+Coding the index file and btree was tougher than I thought it would be. 
+I'm good at visualizing things, so having to code a database as objects and concepts is a topic I need to work on.
+I ended up making 3 files: a main.java file for driving the interaction, an IndexFile.java for running managing the files, and a BTree.java for holding the data and nodes.
+
+I really wish I would have been more productive beforehand so I had more time to work on this. The code isn't perfect or fully "clean", but it performs all of the functions it needs to.
+I think I also liked the github method better than the report method. It familiarizes the user with GitHub, and acts as a "diary" to keep track of projects. It can also keep different commits for reverting to past repos.
+I didn't fully utilize GitHub in this project just because of my lack of experience with it, but if I had more experience, I would likely have used it better.
