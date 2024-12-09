@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Main{
     
+    //Return true if Index is null
     private static boolean checkIfIndexNull(IndexFile indexFile){
         if(indexFile == null){
             return true;
@@ -12,15 +13,17 @@ public class Main{
     }
     
     private static void indexEmptyResponse(){
-        System.out.println("Error: no file is open. Please ty again.\n");
+        System.out.println("Error: no file is open. Please try again.\n");
     }
     
+    //Main method
 	public static void main(String[] args) {
 	    boolean quit = false;
 	    Scanner sc = new Scanner(System.in);
 	    IndexFile indexFile = null;
 
 		while(quit == false){
+		    
 		    //Prompt user for command
 		    System.out.println("MENU:");
 	    	System.out.println("create, open, insert, search, load, print, extract, quit");
@@ -29,6 +32,7 @@ public class Main{
 	    	//Get user input for menu
 		    String input = sc.nextLine();
 		    
+		    //Switch case for each kind of input 
 		    switch(input.trim().toUpperCase()){
 		        //Create new index file
 		        case "CREATE":
@@ -62,7 +66,7 @@ public class Main{
 		            }
 		            break;
 		        
-		        //Load index file fore reading      
+		        //Load index file for reading      
 		        case "LOAD":
 		            if(checkIfIndexNull(indexFile) == true){
 		                indexEmptyResponse();
@@ -103,7 +107,9 @@ public class Main{
 		        //Default case: try again      
 		        default:
 		            System.out.println("\nInput not recognized. Please try again.\n");
+		        
 		    }
+		    System.out.println();
 		}
 	}
 }
